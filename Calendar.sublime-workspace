@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"email",
+				"email_to"
+			],
+			[
+				"isSta",
+				"isStartBefore"
+			],
+			[
+				"isEnd",
+				"isEndInside"
+			],
+			[
+				"endTim",
+				"endTimeClient"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"startT",
+				"startTimeClient"
+			],
+			[
+				"durati",
+				"durationFadeOut  (argument)"
+			],
+			[
+				"tim",
+				"timezone"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"timez",
+				"timezoneCity"
+			],
+			[
+				"remove",
+				"removeClass  (function)"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"country",
+				"countryCode"
+			],
+			[
+				"countr",
+				"countryCode"
+			],
+			[
+				"clie",
+				"clientTimezoneData"
+			],
+			[
+				"timz",
+				"timezoneData"
+			],
+			[
+				"timezone",
+				"timezone-countries"
+			],
+			[
+				"cit",
+				"cityData"
+			],
+			[
+				"get",
+				"getJSON"
+			],
+			[
+				"id",
+				"identifiers"
+			],
+			[
+				"getTime",
+				"getTimezoneCities"
+			],
+			[
+				"coun",
+				"countryCode"
+			],
+			[
+				"list",
+				"listIdentifiers"
+			],
+			[
+				"co",
+				"countryCode"
+			],
+			[
+				"time",
+				"timespan"
+			],
+			[
+				"day",
+				"dayAvailability"
+			],
+			[
+				"ava",
+				"availabilities"
+			],
+			[
+				"ra",
+				"range_end"
+			],
+			[
+				"ran",
+				"range_start"
+			],
+			[
+				"pre",
+				"previousEndDate"
+			],
+			[
+				"avail",
+				"availability"
+			],
+			[
+				"range",
+				"range_end"
+			],
+			[
+				"create",
+				"createEvent"
+			],
+			[
+				"B",
+				"8B0000"
+			],
+			[
+				"require",
+				"require_once"
+			],
+			[
+				"app",
+				"applicableEndDate"
+			],
+			[
+				"App",
+				"ApplicableEndDate"
+			],
+			[
+				"appli",
+				"ApplicableStartDate"
+			],
+			[
+				"cal",
+				"calendarItem"
+			],
+			[
+				"calen",
+				"calendarItem"
+			],
+			[
+				"endTime",
+				"endTimeServer"
+			],
+			[
+				"startTi",
+				"startTimeClient"
+			],
+			[
+				"startTim",
+				"startTimeServer"
+			],
+			[
+				"server",
+				"serverTimezone"
+			],
+			[
+				"rere",
+				"rerenderCalendar"
+			],
+			[
+				"format",
+				"formatUtcOffsetAsString"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"offsetI",
+				"offsetInMinutes"
+			],
+			[
+				"offs",
+				"offsetInMinutes"
+			],
+			[
+				"timezon",
+				"timezoneData"
+			],
+			[
+				"client",
+				"clientTimezone"
+			],
+			[
+				"serv",
+				"serverTimezone"
+			],
+			[
+				"EWS",
+				"ExchangeWebServices"
+			],
+			[
+				"cu",
+				"currentTimezone"
+			],
+			[
+				"abbre",
+				"abbreviation"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"abb",
+				"abbreviations"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"iden",
+				"identifier"
+			],
+			[
+				"a",
+				"abbreviation"
+			],
+			[
+				"output",
+				"output_arrays"
+			],
+			[
+				"ca",
+				"calendarItem"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"de",
+				"defaultDate"
+			],
+			[
+				"agend",
+				"agendaWeek"
+			],
+			[
+				"ren",
+				"renderCalendar"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"P",
+				"PLANK"
+			],
+			[
+				"coll",
+				"collisionGroup"
+			],
+			[
+				"coM",
+				"collisionMask"
+			],
+			[
+				"col",
+				"collisionGroup"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Bower: Install"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"unin",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"",
+				"Bower: Install"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"join",
+				"Floobits - Join Workspace"
+			],
+			[
+				"join ",
+				"Floobits - Join Workspace"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Floobits - Complete Sign Up",
+				"Floobits - Complete Sign Up"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/Calendar/src-github",
+		"/D/Projects/Calendar/src-github/bower_components",
+		"/D/Projects/Calendar/src-github/css",
+		"/D/Projects/Calendar/src-github/js",
+		"/D/Projects/Calendar/src-github/pics"
+	],
+	"file_history":
+	[
+		"/D/Projects/Calendar/src-github/get-events.php",
+		"/D/Projects/Calendar/src-github/php-ews/EWSWrapper.php",
+		"/D/Projects/Calendar/src-github/ews.php",
+		"/D/Projects/Calendar/src-github/save-event.php",
+		"/D/Projects/Calendar/src-github/availability.php",
+		"/D/Projects/Calendar/src-github/js/calendar.js",
+		"/D/Projects/Calendar/src-github/timezones.html",
+		"/D/Projects/Calendar/src-github/sftp-config.json",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/C/Users/dhilg_000/Downloads/view-source smarkets.s3.amazonaws.com oddsfeed.xml",
+		"/D/Projects/Calendar/src/save-event.php",
+		"/D/Projects/Calendar/src/lib/jquery-ui.custom.min.js",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/uncompressed/definitions/globals/site.js",
+		"/D/Projects/Calendar/src/js/calendar.js",
+		"/D/Projects/Calendar/src/css/calendar.css",
+		"/D/Projects/Calendar/src/index.html",
+		"/D/Projects/Calendar/src/timezones.html",
+		"/D/Projects/Calendar/src/get-timezones.php",
+		"/D/Projects/Calendar/src/utils.php",
+		"/D/Projects/Calendar/src/get-events.php",
+		"/D/Projects/Calendar/src/php-ews/EWSWrapper.php",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Projects/Calendar/src/php-ews/ExchangeWebServices.php",
+		"/D/Projects/Calendar/src/php-ews/EWSType/CalendarItemCreateOrDeleteOperationType.php",
+		"/D/Projects/Calendar/src/timezone-test.html",
+		"/D/Projects/Calendar/src/availability.php",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/server/files/stylesheets/library/docco.css",
+		"/D/Projects/Calendar/src/Calendar.sublime-project",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/minified/modules/chatroom.min.css",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/rtl/less/modules/dimmer.js",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/rtl/examples/feed.css",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/uncompressed/modules/dimmer.js",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/packaged/javascript/semantic.js",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/minified/modules/dimmer.min.js",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/less/modules/dimmer.js",
+		"/D/Projects/Calendar/src/bower_components/Semantic-UI/build/examples/feed.css",
+		"/D/Projects/Calendar/src/ews.php",
+		"/D/Projects/Calendar/src/php-ews/EWSType.php",
+		"/D/Projects/Calendar/src/php-ews/EWSType/TimeZoneType.php",
+		"/D/Projects/Calendar/src/lib/moment-timezone.min.js",
+		"/D/Projects/Calendar/src/lib/moment.min.js",
+		"/D/Projects/Calendar/src/lib/moment-timezone-data.js",
+		"/D/Projects/Calendar/src/TODO.txt",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/Projects/Calendar/src/lib/timezone-picker/jquery.timezone-picker.js",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Projects/Calendar/src/exchange-tests.php",
+		"/D/Temp/fullcalendar-2.0.0-beta2/demos/php/utils.php",
+		"/D/Projects/Calendar/src/EWSWrapper-master/ExchangeWebServices.php",
+		"/D/Projects/Calendar/src/EWSWrapper-master/EWSWrapper.php",
+		"/D/Projects/Calendar/src/php-ews/EWSType/GetServerTimeZonesType.php",
+		"/D/Projects/Calendar/src/lib/jstz-1.0.4.min.js",
+		"/D/Projects/Calendar/src/lib/fullcalendar/fullcalendar.js",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/User/PHP.sublime-settings",
+		"/D/Temp/fullcalendar-2.0.0-beta2/demos/php/get-timezones.php",
+		"/D/Temp/fullcalendar-2.0.0-beta2/demos/php/get-events.php",
+		"/D/Projects/Calendar/src/events.php",
+		"/C/Users/dhilg_000/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/D/Projects/Agentur Aura/src/AgenturAura/WebApplication/index.html",
+		"/D/Projects/Agentur Aura/src/AgenturAura/WebApplication/sftp-config.json",
+		"/D/Projects/KillMyThing/src/tower/js/graphicselement.js",
+		"/D/Projects/KillMyThing/src/tower/js/p2.js",
+		"/D/Projects/KillMyThing/src/tower/js/renderer.js",
+		"/D/Projects/KillMyThing/src/tower/js/engine.js",
+		"/C/Users/dhilg_000/floobits/welcome.md",
+		"/C/Users/dhilg_000/.floorc",
+		"/D/Projects/KillMyThing/src/js/hamster.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"', true),",
+			"format(",
+			"#page2",
+			"showMessage",
+			"moment",
+			"segment",
+			"startTimeClient",
+			"console.log",
+			"showMessage",
+			"slideInMessage",
+			"slideOutMessage",
+			"site",
+			"updateEventDetails",
+			"updateCreatedEvent",
+			"slideOutMessage",
+			"Cubic",
+			"slideUp",
+			"slide",
+			"\"",
+			"createDefaultAvailabilityEvents",
+			"createEvent",
+			"createEventFromCalendarItem",
+			"echo",
+			"var_",
+			"createEvent",
+			"createDefaultAvailabilityEvents",
+			"compareTimezones",
+			"renderCalendar",
+			"setClientTimezone",
+			"page2",
+			"page1",
+			"TimezoneData",
+			"timezoneData",
+			"setClientTimezone",
+			"createEventFromCalendarItem",
+			"date_default_timezone_set",
+			"format",
+			"previousEndDate",
+			"$('#calendar')",
+			"data(",
+			"zone",
+			"timezone",
+			"local",
+			"world",
+			"updateMassProperties",
+			"updateMassPr",
+			"motorEquation",
+			"addGraphicsElement",
+			"options",
+			"collisionGroup",
+			"newShapeCollisionGroup"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'),",
+			"');",
+			"showMessage",
+			"hideMessage",
+			"'",
+			"nextStartDate",
+			"calendar",
+			"parameters"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "Calendar.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 368.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,14 @@
+Plan:
+
+1. Nach Anlage event im Kalender: Darstellung der Daten als Text. Uhrzeit und Datum in seiner und meiner Zeitzone. (DONE)
+2. Option zum Erstellen einer ICS-Datei, die dann nach dem Schedule Call-Klick als Download angeboten wird (Nicht nötig. Mail aus 6 enthält bereits eine ICS-Datei im Anhang)
+3. Über Web-Kalender angelegte Events haben eindeutige Merkmale, u.a. die E-Mail-Adresse. Diese Events werden nicht serverseitig sondern clientseitig gemergt. Wenn der Benutzer seine E-Mail-Adresse eingegeben hat, dann werden ihm alle Events mit dieser E-Mail-Adresse als bearbeitbar angezeigt. (DONE)
+4. Server berechnet für jeden Tag allgemeine Verfügbarkeit mit ein. Schritt 1: Manuelle Eingabe in Form von Startdatum und -zeit, Enddatum und -zeit. Schritt 2: Zusätzlich regelbasiert, z.B.: "Ich bin in der Schweiz" -> Automatisch nur verfügbar von 10 bis 5.
+5. Benachrichtigung über neue Termine an mich per Mail (DONE)
+6. Termin-Bestätigung per Mail an Teilnehmer. (DONE)
+7. 
+
+Erweiterte Features:
+1. Teilnehmer muss Termin erst per Link bestätigen. Falls nach X Stunden keine Bestätigung erfolgt wird Termin gelöscht
+2. Verschiedene Sprachen (UI, Mails)
+3. Admin-Interface

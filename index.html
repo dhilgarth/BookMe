@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Self service: Schedule call</title>
+        <meta charset='utf-8' />
+        <link href='bower_components/normalize-css/normalize.css' rel='stylesheet' />
+        <link href='lib/fullcalendar/fullcalendar.css' rel='stylesheet' />
+        <link href='lib/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
+        <link href='bower_components/Semantic-UI/build/packaged/css/semantic.min.css' rel='stylesheet' />
+        <link href='css/calendar.css' rel='stylesheet' />
+    </head>
+<body>
+    <div class='ui one column page grid'>
+        <div class='column'>
+            <h1 class='ui header'>
+                Self service
+                <div class='sub header'>Schedule a call with me.</div>
+            </h1>
+            <div class='content'>
+                <p>You can use this website to schedule a call with me. Simply enter your contact data and select a spot in the calendar. You are free to select any available spot, no matter the time.</p>
+            </div>
+            <div class='ui two steps'>
+                <div class='ui step active' id='step-page1'>Enter your data</div>
+                <div class='ui step disabled' id='step-page2'>Schedule call</div>
+            </div>         
+            <div class='pages'>
+                <div class='ui horizontal section icon divider'>
+                    <i class='circular calendar icon'></i>
+                </div>
+                <div id='page1'>
+                    <form id='contact-data'>
+                        <div class='ui form'>
+                            <h3 class='inverted blue top attached ui header'>Your contact data</h3>
+                            <div class='bottom attached ui segment'>
+                                <div class='three fields'>
+                                    <div class='field'>
+                                        <label>Your name</label>
+                                        <div class='ui input'>
+                                            <input type='text' placeholder='Your name' name='name' id='name' required aria-required='true' />
+                                            <div class='ui corner label'>
+                                                <i class='icon asterisk'></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='field'>
+                                        <label>Your Skype ID</label>
+                                        <div class='ui input'>
+                                            <input type='text' placeholder='Your Skype ID' name='skype-id' id='skype-id' required aria-required='true' />
+                                            <div class='ui corner label'>
+                                                <i class='icon asterisk'></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class='field'>
+                                        <label>Your email address</label>
+                                        <div class='ui input'>
+                                            <input type='email' placeholder='Your email address' name='email' id='email' required aria-required='true' />
+                                            <div class='ui corner label'>
+                                                <i class='icon asterisk'></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class='inverted blue top attached ui header'>Timezone settings</h3>
+                            <div class='bottom attached ui segment'>
+                                 <div class='ui icon warning message visible'>
+                                    <i class='warning icon'></i>
+                                    <div class='content'>
+                                        <div class='header'>Please verify the detected timezone</div>
+                                        If you schedule a call with an incorrect timezone, it will not be scheduled at the desired time. If necessary, please change the timezone to the correct one.
+                                    </div>
+                                </div>
+                                <div class='field'>
+                                    <label>Your timezone</label>
+                                    <select id='timezone-countries' class='ui selection dropdown'></select><br/>
+                                    <select id='timezone-cities' class='ui selection dropdown'></select>
+                                </div>
+                                <div class='field'><label>My timezone</label><span id='server-timezone'></span></div>
+                            </div>
+                            <div class='right-aligned'>
+                                <button id='confirm-basedata' class='ui blue submit button'>Next<i class='right arrow icon'></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id='page2'>
+                    <div class='hideable ui icon success message' id='schedule-successful'>
+                        <i class='close icon'></i>
+                        <i class='smile icon'></i>
+                        <div class='content'>
+                            <div class='header'>Your call has been scheduled successfully!</div>
+                        </div>
+                    </div>
+                    <div class='hideable ui icon error message' id='schedule-error'>
+                        <i class='close icon'></i>
+                        <i class='frown icon'></i>
+                        <div class='content'>
+                            <div class='header'>
+                                There was an error scheduling your call.
+                            </div>
+                            <p>Sorry for the inconvenience. Please try again later or <a class='mini inline ui button' id='send-error-mail' href='mailto:d.hilgarth@fire-development.com?subject=Error%20scheduling%20call'>send me an email</a></p>
+                        </div>
+                    </div>
+                    <div class='ui grid'>
+                        <div class='twelve column wide'>
+                            <div class='ui compact grid'>
+                                <div class='six column wide'>
+                                    <div class='blue ui icon buttons'>
+                                        <button id='calendar-prev' class='ui button'>&nbsp;<i class='icon left arrow'></i>&nbsp;</button>
+                                        <button id='calendar-next' class='ui button'>&nbsp;<i class='icon right arrow'></i>&nbsp;</button>
+                                    </div>
+                                    <div class='blue ui button' id='calendar-today'>Today</div>
+                                </div>
+                                <div class='four column wide'>
+                                    <center>
+                                        <div class='ui header' id='calendar-selected-range'></div>
+                                    </center>
+                                </div>
+                                <div class='six column wide'>
+                                    <div class='right-aligned'>
+                                        <div class='blue ui buttons'>
+                                            <button id='calendar-week' class='ui button'>Week</button>
+                                            <button id='calendar-day' class='ui button'>Day</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='hideable ui warning message' id='warning-free-spot'>
+                                <i class='close icon'></i>
+                                <i class='small warning icon'></i>
+                                Please select a free spot in the calendar. Thank you. <i class='smile icon'></i>
+                            </div>
+                            <div id='calendar'>
+                                <div class='ui dimmer'>
+                                    <div class='ui text loader'>Loading calendar data...</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='four column wide'>
+                            <h3 class='inverted blue top attached ui header'>Event details</h3>
+                            <div class='bottom attached ui segment'>
+                                <div id='event-details'>
+                                    <div class='blue ui ribbon large label'>Start time</div>
+                                    <p><span id='start-time-client'></span><br/><span class='ui pointing label'>In your location</span></p>
+                                    <p><span id='start-time-server'></span><br/><span class='ui pointing label'>In my location</span></p>
+                                    <div class='blue ui ribbon large label'>Duration</div>
+                                    <p id='duration'></p>
+                                </div>
+                                <div id='event-details-no-selection'>
+                                    Please select a spot in the calendar.
+                                </div>
+                            </div>
+                            <button id='save-event' class='disabled fluid blue ui button'>Schedule call</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='lib/moment.min.js'></script>
+    <script src='lib/moment-timezone.min.js'></script>
+    <script src='lib/moment-timezone-data.js'></script>
+    <script src='bower_components/jquery/dist/jquery.min.js'></script>
+    <script src='lib/jquery-ui.custom.min.js'></script>
+    <script src='lib/fullcalendar/fullcalendar.min.js'></script>
+    <script src='lib/jstz-1.0.4.min.js'></script>
+    <script src='js/calendar.js'></script>
+    <script src='bower_components/Semantic-UI/build/packaged/javascript/semantic.min.js'></script>
+    <script src='bower_components/Semantic-UI/build/uncompressed/definitions/globals/site.js'></script>
+</body>
+</html>
